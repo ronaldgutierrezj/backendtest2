@@ -47,8 +47,8 @@ module.exports = {
     *                                                                          *
     ***************************************************************************/
     default: {
-      // adapter: 'sails-mongo',
-      // url: 'mysql://user:password@host:port/database',
+      adapter: 'sails-mongo',
+      url: 'mongodb+srv://SEI:RONALD123@sei.rjzoc.mongodb.net/todos?retryWrites=true&w=majority',
       //--------------------------------------------------------------------------
       //  /\   To avoid checking it in to version control, you might opt to set
       //  ||   sensitive credentials like `url` using an environment variable.
@@ -251,8 +251,8 @@ module.exports = {
     *                                                                          *
     ***************************************************************************/
     onlyAllowOrigins: [
-      'https://backendtest2.herokuapp.com/',
-      'https://backendtest2.herokuapp.com/',
+      'https://backendtest2.herokuapp.com',
+      'https://backendtest2.herokuapp.com',
     ],
 
 
