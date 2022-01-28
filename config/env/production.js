@@ -252,7 +252,7 @@ module.exports = {
     ***************************************************************************/
     onlyAllowOrigins: [
       'https://backendtest2.herokuapp.com',
-      'https://backendtest2.herokuapp.com',
+      'https://backendtest2.herokuapp.com'
     ],
 
 
