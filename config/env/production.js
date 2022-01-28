@@ -47,7 +47,7 @@ module.exports = {
     *                                                                          *
     ***************************************************************************/
     default: {
-      adapter: require('sails-mongo'),
+      adapter: 'sails-mongo',
       url: 'mongodb+srv://SEI:RONALD123@sei.rjzoc.mongodb.net/cards'
       //--------------------------------------------------------------------------
       //  /\   To avoid checking it in to version control, you might opt to set

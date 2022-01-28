@@ -48,7 +48,7 @@ module.exports.datastores = {
     *    (See https://sailsjs.com/config/datastores for help.)                 *
     *                                                                          *
     ***************************************************************************/
-    adapter: require('sails-mongo'),
+    adapter: 'sails-mongo',
     url: 'mongodb+srv://SEI:RONALD123@sei.rjzoc.mongodb.net/cards'
   }
 
