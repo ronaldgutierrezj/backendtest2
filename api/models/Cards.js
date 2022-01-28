@@ -31,7 +31,7 @@ module.exports = {
     releaseDate:{
       type: 'ref',
       columnType: 'datetime',
-    },
+    }
 
   },
 
