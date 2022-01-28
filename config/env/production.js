@@ -48,7 +48,7 @@ module.exports = {
     ***************************************************************************/
     default: {
       adapter: 'sails-mongo',
-      url: 'mongodb+srv://SEI:RONALD123@sei.rjzoc.mongodb.net/cards?retryWrites=true&w=majority',
+      url: 'mongodb+srv://SEI:RONALD123@sei.rjzoc.mongodb.net/cards?retryWrites=true&w=majority'
       //--------------------------------------------------------------------------
       //  /\   To avoid checking it in to version control, you might opt to set
       //  ||   sensitive credentials like `url` using an environment variable.
@@ -70,7 +70,7 @@ module.exports = {
       * https://sailsjs.com/config/datastores                                     *
       *                                                                           *
       ****************************************************************************/
-      ssl: { rejectUnauthorized: true },
+      // ssl: { rejectUnauthorized: true },
 
     },
 
